@@ -1,14 +1,18 @@
 # LooksLab
 
 ---
+<p align="center">
+  <img src="README_assets/construction.gif" height="64px" alt="🚧 🚧 🚧" />
+</p>
 
-> 🚧 **EARLY DEVELOPMENT — NOT INSTALLABLE YET**
+> **EARLY DEVELOPMENT — NOT INSTALLABLE YET**
 >
 > LooksLab is currently in its initial development stage. There is no stable release or installation package yet.
 
-<img src="README_assets/logo.svg" />
-
-## What is LooksLab?
+<p align="center">
+  <img src="README_assets/logo.svg" alt="LooksLab logo" />
+</p>
+<h1 align="center">What is LooksLab?</h1>
 
 Looksmaxxing has become increasingly fragmented into subscription-based apps that perform a handful of measurements, attach a score to them, and put the results behind a paywall.
 
@@ -22,29 +26,29 @@ Instead of paying a recurring subscription for calculations that can be performe
 
 ---
 
-# 🔬 What LooksLab aims to do
+<h1 align="center"> 🔬 What LooksLab aims to do </h1>
 
 LooksLab is intended to cover the analytical side of looksmaxxing from end to end.
 
-### 📐 Measure
+<h3>📐 Measure</h3>
 
 Extract and analyse facial geometry, including:
 
-`Landmarks` · `Distances` · `Angles` · `Ratios` · `Proportions` · `Symmetry` · `Facial thirds` · `Facial fifths`
+<span style="display: inline-block; background-color: #E8F4FF; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Landmarks</span> · <span style="display: inline-block; background-color: #EAF7EA; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Distances</span> · <span style="display: inline-block; background-color: #FFF4D6; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Angles</span> · <span style="display: inline-block; background-color: #FDE8F0; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Ratios</span> · <span style="display: inline-block; background-color: #F0E8FF; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Proportions</span> · <span style="display: inline-block; background-color: #E5F7F5; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Symmetry</span> · <span style="display: inline-block; background-color: #FFF0E1; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Facial thirds</span> · <span style="display: inline-block; background-color: #F1F1F1; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Facial fifths</span>
 
 Individual facial features can also be examined rather than reducing the entire face to a single number.
 
-### 🗿 Analyse morphology
+<h3> 🗿 Analyse morphology </h3>
 
 LooksLab is designed to analyse structural characteristics and relationships between facial features.
 
 The goal isn't simply to answer:
 
-> **"How attractive are you?"**
+<span style="display: inline-block; background-color: #fdc2c2; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">**"How attractive are you?"**</span>
 
 It is to answer:
 
-> **"What exactly is being measured, how does it compare, and how much does each factor contribute?"**
+<span style="display: inline-block; background-color: #E5F7F5; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">**"What exactly is being measured, how does it compare, and how much does each factor contribute?"**</span>
 
 ---
 
@@ -54,13 +58,13 @@ Facial aesthetics aren't purely geometric.
 
 LooksLab is intended to include analysis of:
 
-* Skin colour
-* Undertones
-* Facial colour relationships
-* Feature contrast
-* Overall facial contrast
-* Hair/skin/eye contrast
-* Other colour-based characteristics
+<img src="README_assets/bullet.svg" width="32px"> Skin colour <br/>
+<img src="README_assets/bullet.svg" width="32px"> Undertones <br/>
+<img src="README_assets/bullet.svg" width="32px"> Facial colour relationships <br/>
+<img src="README_assets/bullet.svg" width="32px"> Feature contrast <br/>
+<img src="README_assets/bullet.svg" width="32px"> Overall facial contrast <br/>
+<img src="README_assets/bullet.svg" width="32px"> Hair/skin/eye contrast <br/>
+<img src="README_assets/bullet.svg" width="32px"> Other colour-based characteristics <br/>
 
 ---
 
@@ -70,14 +74,16 @@ One of LooksLab's core concepts is **weighted analysis**.
 
 Different people may want different aspects of facial aesthetics to have different importance.
 
-Instead of having an immutable formula such as:
+Instead of locking every analysis into one immutable formula, LooksLab can treat priorities like adjustable dials:
 
-```text
-Feature A = 20%
-Feature B = 15%
-Feature C = 10%
-...
-```
+| Priority | Influence |
+|:--|:--|
+| 🪞 **Symmetry** | `████████░░░░░░░░░░░░` **20%** |
+| 📐 **Proportions** | `██████░░░░░░░░░░░░░░` **15%** |
+| 🎨 **Contrast** | `████░░░░░░░░░░░░░░░░` **10%** |
+| 🧩 **Everything else** | `······················` *configured by you* |
+
+<span style="display: block; background-color: #F1F1F1; color: #000000; padding: 8px 6px; margin: 12px auto; border-radius: 30px; text-align: center;">**Your face. Your priorities. Your formula.**</span>
 
 LooksLab aims to allow the influence of individual measurements and categories to be adjusted.
 
@@ -85,7 +91,7 @@ This allows the final result to respond to the user's chosen priorities.
 
 ---
 
-# 🎯 Your standard doesn't have to be ours
+<h1 align="center"> 🎯 Your standard doesn't have to be ours </h1>
 
 LooksLab isn't intended to lock users into one definition of an "ideal" face.
 
@@ -95,21 +101,21 @@ That means measurements can potentially be compared against:
 
 **LooksLab defaults**
 
-→ **Custom ideal measurements**
+<img src="README_assets/bullet.svg" width="32px"> **Custom ideal measurements** <br/>
 
-→ **Another person's measurements**
+<img src="README_assets/bullet.svg" width="32px"> **Another person's measurements** <br/>
 
-→ **A reference face**
+<img src="README_assets/bullet.svg" width="32px"> **A reference face** <br/>
 
-→ **A particular aesthetic standard**
+<img src="README_assets/bullet.svg" width="32px"> **A particular aesthetic standard** <br/>
 
-→ **Your own target**
+<img src="README_assets/bullet.svg" width="32px"> **Your own target** <br/>
 
 The same analytical system can therefore be used with different standards rather than assuming that one universal face is the target.
 
 ---
 
-# 📊 The LooksLab Score
+<h1 align="center">📊 The LooksLab Score</h1>
 
 LooksLab will have its own scoring system built around the measurements and weights defined within the application.
 
@@ -144,11 +150,11 @@ Weights can alter how strongly individual measurements affect the final result.
 
 ---
 
-# 🧬 The idea
+<h1 align="center"> 🧬 The idea </h1>
 
 LooksLab is built around a relatively simple premise:
 
-> **If something can be measured, it shouldn't need a subscription.**
+<span style="display: block; color: #F1F1F1; padding: 12px 16px; margin: 12px 0; border-radius: 16px; font-size: 16px;">**“If something can be measured on your device, it shouldn't need a subscription to travel to the cloud.”**</span>
 
 A large portion of facial analysis consists of geometry, image processing, comparisons, ratios, colour calculations and statistical operations.
 
@@ -166,7 +172,7 @@ No requirement to upload your face to someone else's server.
 
 ---
 
-# 🔒 Privacy by default
+<h1 align="center"> 🔒 Privacy by default </h1>
 
 LooksLab is designed to operate **entirely locally**.
 
@@ -193,7 +199,7 @@ Your face shouldn't have to leave your machine just to calculate a ratio.
 
 ---
 
-# 🧪 Built as an analytical toolkit
+<h1 align="center"> 🧪 Built as an analytical toolkit </h1>
 
 LooksLab is not intended to be a single-purpose "face rating" application.
 
@@ -203,7 +209,7 @@ You should be able to inspect the individual components behind an analysis rathe
 
 ---
 
-# 🛠️ Technology
+<h1 align="center"> 🛠️ Technology </h1>
 
 LooksLab is currently being developed as a **Tauri desktop application**.
 
@@ -211,7 +217,11 @@ The frontend intentionally uses vanilla web technologies:
 
 ```text
 HTML
+```
+```text
 CSS
+```
+```text
 JavaScript
 ```
 
@@ -232,7 +242,7 @@ The application is intended to combine the flexibility of web technologies with 
 
 ---
 
-# 🚧 Development status
+<h1 align="center"> 🚧 Development status </h1>
 
 LooksLab is **very early in development**.
 
@@ -244,7 +254,7 @@ The architecture, analysis methods, scoring models and interface are expected to
 
 ---
 
-# 🗺️ Roadmap
+<h1 align="center"> 🗺️ Roadmap </h1>
 
 The roadmap is intentionally left open while the core architecture is being established.
 
@@ -278,7 +288,7 @@ More concrete milestones will be defined as the implementation matures.
 
 ---
 
-# 🖥️ Installation
+<h1 align="center"> 🖥️ Installation </h1>
 
 **Not available yet.**
 
@@ -288,19 +298,19 @@ Installation instructions will be added when the first usable development/releas
 
 ---
 
-# 🤝 Contributing
+<h1 align="center"> 🤝 Contributing </h1>
 
 LooksLab is intended to be **fully open source**.
 
 As development progresses, contributions can potentially cover areas such as:
 
-`Computer Vision` · `Facial Geometry` · `Colour Science` · `UI/UX` · `Scoring Models` · `Performance` · `Documentation`
+<span style="display: inline-block; background-color: #E8F4FF; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Computer Vision</span> · <span style="display: inline-block; background-color: #EAF7EA; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Facial Geometry</span> · <span style="display: inline-block; background-color: #FFF4D6; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Colour Science</span> · <span style="display: inline-block; background-color: #FDE8F0; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">UI/UX</span> · <span style="display: inline-block; background-color: #F0E8FF; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Scoring Models</span> · <span style="display: inline-block; background-color: #E5F7F5; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Performance</span> · <span style="display: inline-block; background-color: #FFF0E1; color: #000000; padding: 8px 6px; margin: 6px 0; border-radius: 4px;">Documentation</span>
 
 The project is currently too early for a formal contribution workflow, but contributions and experimentation will become increasingly useful as the core architecture stabilises.
 
 ---
 
-# 📜 License
+<h1 align="center"> 📜 License </h1>
 
 LooksLab is licensed under the:
 
@@ -310,8 +320,7 @@ See [`LICENSE`](LICENSE) for the complete license text.
 
 ---
 
-# ⚠️ Disclaimer
-
+<h1 align="center"> ⚠️ Disclaimer </h1>
 LooksLab provides **quantitative measurements, comparisons and configurable aesthetic analyses**.
 
 Its scores and reference standards should not be interpreted as objective measurements of a person's worth, desirability, or inherent value.
