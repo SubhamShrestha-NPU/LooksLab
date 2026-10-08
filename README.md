@@ -6,6 +6,8 @@
 >
 > LooksLab is currently in its initial development stage. There is no stable release or installation package yet.
 
+<img src="README_assets/logo.svg" />
+
 ## What is LooksLab?
 
 Looksmaxxing has become increasingly fragmented into subscription-based apps that perform a handful of measurements, attach a score to them, and put the results behind a paywall.
