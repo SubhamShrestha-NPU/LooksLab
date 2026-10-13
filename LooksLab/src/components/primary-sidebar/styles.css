@@ -1,0 +1,25 @@
+@import url("../../root.css");
+
+#primarySidebar {
+    position: relative;
+    height: 100vh;
+    min-width: 15vw;
+    width: 20vw;
+    max-width: 30vw;
+    overflow: auto;
+    flex: 0 0 20vw;
+    background: var(--color-stone-900);
+
+    border-radius: var(--radius-lg);
+    margin-block: 1px;
+}
+
+#primarySidebar::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    cursor: col-resize;
+    content: "";
+}
