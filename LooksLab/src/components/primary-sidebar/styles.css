@@ -12,6 +12,9 @@
 
     border-radius: var(--radius-lg);
     margin-block: 1px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #primarySidebar::after {
@@ -22,4 +25,26 @@
     height: 100%;
     cursor: col-resize;
     content: "";
+}
+
+.option {
+    height: 6vh;
+    padding-left: 8px;
+    line-height: 115%;
+    color: var(--color-stone-100);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: 250ms;
+    border-radius: var(--radius-sm);
+}
+
+.option:hover {
+    background: var(--color-stone-800);
+    /* color: var(--color-stone-950); */
+    border-radius: var(--radius-xl);
+}
+
+#settings {
+    margin-top: auto;
 }
