@@ -46,6 +46,7 @@
 
     overflow: hidden;
     transition: 250ms;
+    animation: var(--animate-shake-translate);
 }
 #close:hover {
     color: var(--color-stone-300);
