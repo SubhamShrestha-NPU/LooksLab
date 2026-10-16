@@ -490,3 +490,35 @@
 .hideScrollbar :-webkit-scrollbar {
     display: none; /* Chrome, Safari, newer Edge */
 }
+
+/** ICON LIST */
+
+.icon-cancel {
+    -webkit-mask: url("./assets/ui/icon/cancel.svg");
+    mask: url("./assets/ui/icon/cancel.svg");
+} /* lucide icons */
+
+.icon-check {
+    -webkit-mask: url("./assets/ui/icon/check.svg");
+    mask: url("./assets/ui/icon/check.svg");
+} /* lucide icons */
+
+.icon-chevron-up {
+    -webkit-mask: url("./assets/ui/icon/chevron-up.svg");
+    mask: url("./assets/ui/icon/chevron-up.svg");
+} /* lucide icons */
+
+.icon-chevron-down {
+    -webkit-mask: url("./assets/ui/icon/chevron-down.svg");
+    mask: url("./assets/ui/icon/chevron-down.svg");
+} /* lucide icons */
+
+.icon-chevron-left {
+    -webkit-mask: url("./assets/ui/icon/chevron-left.svg");
+    mask: url("./assets/ui/icon/chevron-left.svg");
+} /* lucide icons */
+
+.icon-chevron-right {
+    -webkit-mask: url("./assets/ui/icon/chevron-right.svg");
+    mask: url("./assets/ui/icon/chevron-right.svg");
+} /* lucide icons */
