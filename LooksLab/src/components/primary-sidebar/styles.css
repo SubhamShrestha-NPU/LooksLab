@@ -79,4 +79,21 @@
 
 #settings {
     margin-top: auto;
+    margin-bottom: 10px;
+    /* transition: 100ms ease-in; */
+}
+
+#settings .icon {
+    width: 32px;
+    height: 32px;
+    background: var(--color-stone-100); /* sets color of the icon */
+}
+
+#settings .text {
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+#settings:hover .icon {
+    animation: spin 2s cubic-bezier(1, 0, 0, 1);
 }
