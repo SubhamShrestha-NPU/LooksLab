@@ -29,16 +29,14 @@
 
 #close {
     width: 24px;
-    aspect-ratio: 1;
+    height: 24px;
     border-radius: var(--radius-sm);
     
-    color: var(--color-stone-100);
     font-size: 16px;
 
     margin-left: auto;
     margin-top: 5px;
     margin-right: 5px;
-    padding: 10px;
 
     display: flex;
     justify-content: center;
@@ -46,11 +44,19 @@
 
     overflow: hidden;
     transition: 250ms;
-    animation: var(--animate-shake-rotate);
 }
 #close:hover {
-    color: var(--color-stone-300);
     background: var(--color-stone-800);
+}
+
+#close:hover #icon-cancel {
+    background: var(--color-stone-500);
+}
+
+#close .icon {
+    width: 24px;
+    height: 24px;
+    background: white;
 }
 
 .option {
