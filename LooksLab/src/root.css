@@ -522,3 +522,38 @@
     -webkit-mask: url("./assets/ui/icon/chevron-right.svg");
     mask: url("./assets/ui/icon/chevron-right.svg");
 } /* lucide icons */
+
+.icon-search {
+     -webkit-mask: url("./assets/ui/icon/search.svg");
+    mask: url("./assets/ui/icon/search.svg");
+} /* lucide icons */
+
+.icon-cog {
+    -webkit-mask: url("./assets/ui/icon/cog.svg");
+    mask: url("./assets/ui/icon/cog.svg");
+} /* lucide icons */
+
+.icon-gear-eight {
+    -webkit-mask: url("./assets/ui/icon/gear-eight.svg");
+    mask: url("./assets/ui/icon/gear-eight.svg");
+} /* phosphor icons */
+
+.icon-gear-six {
+    -webkit-mask: url("./assets/ui/icon/gear-six.svg");
+    mask: url("./assets/ui/icon/gear-six.svg");
+} /* phosphor icons */
+
+.icon-hamburger {
+    -webkit-mask: url("./assets/ui/icon/hamburger.svg");
+    mask: url("./assets/ui/icon/hamburger.svg");
+} /* lucide icons */
+
+.icon-plus {
+    -webkit-mask: url("./assets/ui/icon/plus.svg");
+    mask: url("./assets/ui/icon/plus.svg");
+} /* lucide icons */
+
+.icon-minus {
+    -webkit-mask: url("./assets/ui/icon/minus.svg");
+    mask: url("./assets/ui/icon/minus.svg");
+} /* lucide icons */
