@@ -557,3 +557,26 @@
     -webkit-mask: url("./assets/ui/icon/minus.svg");
     mask: url("./assets/ui/icon/minus.svg");
 } /* lucide icons */
+
+.icon-square-arrow-out-up-right {
+    -webkit-mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+} /* lucide icons */
+
+.icon-square-arrow-out-up-left {
+    -webkit-mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    transform: scaleX(-1); /* creates multiple components from one file */
+} /* lucide icons */
+
+.icon-square-arrow-out-down-right {
+    -webkit-mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    transform: scaleY(-1); /* creates multiple components from one file */
+} /* lucide icons */
+
+.icon-square-arrow-out-down-left {
+    -webkit-mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    mask: url("./assets/ui/icon/square-arrow-out-up-right.svg");
+    transform: scaleX(-1) scaleY(-1); /* creates multiple components from one file */
+} /* lucide icons */
