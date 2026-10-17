@@ -410,6 +410,29 @@
     --animate-bounce: bounce 1s infinite;
     --animate-shake-translate: shake-translate 1s infinite;
     --animate-shake-rotate: shake-rotate 1.5s infinite;
+    --sidebar-transition-duration: 500ms;
+}
+
+/** ANIMATIONS LIST */
+
+@keyframes curtain-pull-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes curtain-pull-right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 @keyframes spin {
@@ -482,6 +505,8 @@
     transform: rotate(0deg);
   }
 }
+
+/** HANDY TOOLS LIST */
 
 .hideScrollbar {
     -ms-overflow-style: none;  /* IE and old Edge */

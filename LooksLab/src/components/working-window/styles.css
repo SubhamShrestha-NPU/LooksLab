@@ -12,3 +12,42 @@
     margin: 2px;
     padding: 5px;
 }
+
+#menu {
+    height: 24px;
+    width: 24px;
+    border-radius: var(--radius-sm);
+
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition:
+        opacity var(--sidebar-transition-duration) var(--ease-in-out),
+        background-color 250ms;
+}
+
+#working-window.is-sidebar-collapsed #menu {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+#menu:hover {
+    background: var(--color-stone-800);
+}
+
+#menu .icon {
+    height: inherit;
+    width: inherit;
+    background: var(--color-stone-100);
+}

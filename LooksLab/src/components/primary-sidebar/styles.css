@@ -16,6 +16,25 @@
 
     display: flex;
     flex-direction: column;
+    transition:
+        flex-basis var(--sidebar-transition-duration) var(--ease-in-out),
+        min-width var(--sidebar-transition-duration) var(--ease-in-out),
+        width var(--sidebar-transition-duration) var(--ease-in-out),
+        transform var(--sidebar-transition-duration) var(--ease-in-out),
+        opacity var(--sidebar-transition-duration) var(--ease-in-out);
+}
+
+#primarySidebar.is-collapsed {
+    min-width: 0;
+    width: 0;
+    flex-basis: 0;
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+#primarySidebar.is-collapsed #close {
+    visibility: hidden;
 }
 
 #primarySidebar::after {
@@ -45,6 +64,10 @@
 
     overflow: hidden;
     transition: 250ms;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
 }
 #close:hover {
     background: var(--color-stone-800);
@@ -96,5 +119,5 @@
 }
 
 #settings:hover .icon {
-    animation: spin 2s cubic-bezier(1, 0, 0, 1);
+    animation: spin 1.5s cubic-bezier(1, 0, 0, 1);
 }

@@ -1,9 +1,31 @@
+import {
+    requestSidebarToggle,
+    SIDEBAR_TOGGLE_EVENT,
+} from "../../layout/sidebar-state.mjs";
+
 export function initializePrimarySidebar(root) {
     const sidebar = root.querySelector("#primarySidebar");
+    const closeButton = sidebar?.querySelector("#close");
 
     if (!sidebar) {
         throw new Error("Primary sidebar markup is missing #primarySidebar.");
     }
+
+    if (!closeButton) {
+        throw new Error("Primary sidebar markup is missing #close.");
+    }
+
+    closeButton.addEventListener("click", () => {
+        requestSidebarToggle(root, false);
+    });
+
+    root.addEventListener(SIDEBAR_TOGGLE_EVENT, (event) => {
+        const isOpen = event.detail.isOpen;
+
+        sidebar.classList.toggle("is-collapsed", !isOpen);
+        closeButton.tabIndex = isOpen ? 0 : -1;
+        closeButton.setAttribute("aria-hidden", String(!isOpen));
+    });
 
     let resizing = false;
     let startX = 0;
