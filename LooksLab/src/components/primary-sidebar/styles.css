@@ -11,7 +11,8 @@
     background: var(--color-stone-900);
 
     border-radius: var(--radius-lg);
-    margin-block: 1px;
+    margin-block: 2px;
+    margin-left: 2px;
 
     display: flex;
     flex-direction: column;

@@ -1,0 +1,14 @@
+@import url("../../root.css");
+
+#working-window {
+    flex: 1;
+    height: 100vh;
+    min-width: 0;
+    z-index: 2;
+    background: var(--color-stone-900);
+    color: var(--color-stone-100);
+
+    border-radius: var(--radius-lg);
+    margin: 2px;
+    padding: 5px;
+}

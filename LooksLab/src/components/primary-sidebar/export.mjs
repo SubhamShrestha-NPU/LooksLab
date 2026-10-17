@@ -11,6 +11,7 @@ const markup = await markupResponse.text();
 export function primarySidebar() {
     return {
         markup,
+        stylesheet: "./components/primary-sidebar/styles.css",
         initialize: initializePrimarySidebar,
     };
 }
